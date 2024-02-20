@@ -43,7 +43,7 @@ h4 {
 }
 
 p {
-	line-height: 2.25em;
+	line-height: 36px;
 	font-size: 1rem;
 }
 
@@ -55,10 +55,10 @@ header {
 	text-align: center;
 }
 header h1 {
-	
 	margin: 0;
-	padding: 38px 0;
+	padding: 38px 0 20px 0px;
 	width: 100%;
+	border-bottom: #77A466 3px solid;
 }
 
 header h1 span {
@@ -67,20 +67,21 @@ header h1 span {
 
 header nav {
 	
-	padding: 2.875em 0;
+	padding: 20px 0;
 }
 
 header nav ul {
 	margin: 0;
-	padding: 0;
+    padding: 0;
+    list-style: none;
 }
 
 header nav ul li {
-	font-size: 1.14285rem;
-	font-weight: 700;
-	text-transform: uppercase;
-	padding: 0 10px;
-	width: 100%;
+	font-size: 0.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 0px;
+    width: 100%;
 }
 
 header nav ul li a {
@@ -129,8 +130,8 @@ header nav ul li a {
 
 .section-two {
 	width: 100%;
-	border-left: 5px solid #EEE;
-	border-right: 5px solid #EEE;
+    border-top: 5px solid #EEE;
+    border-bottom: 5px solid #EEE;
 }
 
 .section-three {
@@ -142,7 +143,7 @@ header nav ul li a {
 }
 
 .menu-list {
-	padding-left: 0;
+	padding: 0;
 	list-style: none;
 }
 
